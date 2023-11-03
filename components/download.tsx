@@ -48,8 +48,7 @@ export default function Download() {
                         variants={slideInFromLeft(0.8)}
                         className="mb-10 max-w-[600px] text-lg text-slate-500"
                       >
-                       Accessible and customizable components that you can copy and paste
-                        into your apps. Free. Open Source. And Next.js 13 Ready.
+                       Elevate Your Event Experience! Your all-in-one solution for stress-free event booking and management. Get started today! Download Now.
                       </motion.p>
                       <div className="items-left justify-left mt-10 flex gap-x-6">
                         <div className="flex gap-4">

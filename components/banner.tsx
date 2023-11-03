@@ -31,7 +31,7 @@ export default function Banner() {
                 <div className="mx-auto flex w-full flex-col justify-center space-y-6 p-2 sm:w-[555px]">
                   <div className="flex flex-col space-y-2 text-center">
                     <div className="text-left">
-                    <p className="mb-4 max-w-[700px] text-lg text-muted-foreground">
+                    <p className="mb-4 max-w-[700px] text-lg font-bold text-zinc-500">
                         - The Best Booking App
                     </p>
                     <h1 className="mb-10 text-3xl font-extrabold leading-tight md:text-4xl">
@@ -44,8 +44,7 @@ export default function Banner() {
                         variants={slideInFromLeft(0.8)}
                         className="mb-10 max-w-[600px] text-lg text-slate-500"
                       >
-                       Accessible and customizable components that you can copy and paste
-                        into your apps. Free. Open Source. And Next.js 13 Ready.
+                       Discover Seamless Event Planning with Our App! Effortlessly book and manage your events for an unforgettable experience.
                       </motion.p>
                       <div className="items-left justify-left mt-10 flex gap-x-6">
                       <div className="flex gap-4">

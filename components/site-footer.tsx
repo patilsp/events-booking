@@ -1,5 +1,6 @@
 "use client"
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { Icons } from "@/components/icons";
 import { MainNav } from "@/components/main-nav";
@@ -15,9 +16,16 @@ export function SiteFooter() {
             transition={{ duration: 1, delay: 1 }}
         >
       <div className="flex flex-col space-y-4 px-10 py-20 sm:flex-row sm:justify-between sm:space-x-4 sm:space-y-0">
-        <div className="flex flex-1 items-start justify-start">
+        <div className="flex flex-1 items-start justify-start">        
           <Link href="/" className="flex items-center space-x-2">
-            <span className="inline-block font-bold text-white">{siteConfig.name} App</span>
+            <Image
+                src="/images/logo.png"
+                alt="demo"
+                height={40}
+                width={40}
+                className="h-6 w-6"
+            />
+            <span className="inline-block font-bold text-white">{siteConfig.name}</span>
           </Link>
         </div>
         <div className="flex items-center justify-center space-x-4">

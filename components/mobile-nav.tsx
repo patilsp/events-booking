@@ -8,11 +8,12 @@ import { usePathname } from "next/navigation"
 import { docsConfig } from "@/config/docs"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { motion } from "framer-motion"
+import { FcMenu } from "react-icons/fc";
+import Image from "next/image"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
@@ -25,7 +26,7 @@ export function MobileNav() {
           variant="ghost"
           className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
         >
-          <ViewVerticalIcon className="h-5 w-5 text-white" />
+          <FcMenu className="bg_primary h-8 w-8 rounded-md p-2 text-white " />
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
@@ -35,7 +36,13 @@ export function MobileNav() {
           className="flex items-center"
           onOpenChange={setOpen}
         >
-          {/* <Icons.logo className="mr-2 h-4 w-4" /> */}
+          <Image 
+            src="/images/logo.png"
+            alt="demo"
+            height={100}
+            width={100}
+            className="mr-2 h-8 w-8"
+            />
           <span className="text_primary text-2xl font-bold">{siteConfig.name}</span>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-10rem)] pb-10 pl-1">

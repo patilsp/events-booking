@@ -50,8 +50,7 @@ export default function GetApp() {
                         variants={slideInFromLeft(0.8)}
                         className="mb-10 max-w-[600px] text-lg text-slate-500"
                       >
-                       Accessible and customizable components that you can copy and paste
-                        into your apps. Free. Open Source. And Next.js 13 Ready.
+                       Unlock the Future of Event Planning. Our app offers effortless booking, seamless management, and personalized recommendations. Elevate your event experience today!
                       </motion.p>
                       <div className="mt-10 flex items-center justify-center gap-x-6">
                         <div className="flex gap-4">

@@ -27,9 +27,7 @@ export function SiteHeader() {
         </div>
         <div className="flex items-center justify-end space-x-4 md:flex-1">
           <nav className="hidden items-center space-x-1 md:flex">
-             <Button className="btn-primary bg_primary px-4"> Get The App </Button>
-            <ThemeToggle />
-           
+             <Button className="btn-primary bg_primary px-4"> Get The App </Button>           
           </nav>
           <MobileNav />
         </div>
