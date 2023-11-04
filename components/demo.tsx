@@ -28,7 +28,7 @@ export default function Demo() {
 
                 <div className="flex w-full items-center justify-center">
                     <Image
-                        src="/images/demo.png"
+                        src="/images/app.png"
                         alt="demo"
                         height={2000}
                         width={1000}
