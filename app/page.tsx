@@ -22,8 +22,9 @@ export default function IndexPage() {
     <Guide />
     <Pricing />
     <Testimonials />
-    <Blog />
     {/* <FAQ /> */}
+    <Blog />
+    
   </div>
   )
 }

@@ -38,7 +38,7 @@ export default function Blog() {
                             href="#"
                             target="_blank"
                             rel="noreferrer"
-                            className="h-16 items-start p-2 px-4 sm:px-0"
+                            className="h-16 items-start p-2 md:px-4 lg:px-4"
                             >
                           <div className="flex items-start">
                             <DiApple className="h-10 w-10" />
@@ -53,7 +53,7 @@ export default function Blog() {
                             href="#"
                             target="_blank"
                             rel="noreferrer"
-                            className="h-16 items-start p-2 px-0 md:px-4 lg:px-4"
+                            className="h-16 items-start p-2 md:px-4 lg:px-4"
                             >
                           <div className="flex items-start">
                             <DiAndroid className="h-10 w-10" />

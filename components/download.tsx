@@ -52,17 +52,17 @@ export default function Download() {
                       </motion.p>
                       <div className="items-left justify-left mt-10 flex gap-x-6">
                         <div className="flex flex-col gap-4 md:flex-row lg:flex-row">
-                            <div className="gap-4 border-r pr-4">
+                            <div className="gap-4 border-b pr-4 md:border-r">
                                 <h1 className="text_primary text-xl font-extrabold"> 5 Million+</h1>
                                 <p className=""> Worldwide Active Users</p>
 
                             </div>
-                            <div className="gap-4 border-r pr-4">
+                            <div className="gap-4 border-b pr-4 md:border-r">
                                 <h1 className="text_primary text-xl font-extrabold"> 20+</h1>
                                 <p className=""> Countries</p>
 
                             </div>
-                            <div className="gap-4 border-r pr-4">
+                            <div className="gap-4 border-b pr-4 md:border-r">
                                 <h1 className="text_primary text-xl font-extrabold"> 100K</h1>
                                 <p className=""> Organizers</p>
 
