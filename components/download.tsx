@@ -51,7 +51,7 @@ export default function Download() {
                        Elevate Your Event Experience! Your all-in-one solution for stress-free event booking and management. Get started today! Download Now.
                       </motion.p>
                       <div className="items-left justify-left mt-10 flex gap-x-6">
-                        <div className="flex gap-4">
+                        <div className="flex flex-col gap-4 md:flex-row lg:flex-row">
                             <div className="gap-4 border-r pr-4">
                                 <h1 className="text_primary text-xl font-extrabold"> 5 Million+</h1>
                                 <p className=""> Worldwide Active Users</p>
@@ -85,9 +85,9 @@ export default function Download() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 1 }}
               >
-                <div className="mx-auto mr-2 grid justify-center gap-4 sm:grid-cols-1 md:max-w-[64rem] md:grid-cols-2">
+                <div className="mx-auto mr-2 grid justify-center gap-6 sm:grid-cols-1 md:max-w-[64rem] md:grid-cols-2">
 
-                <Card className="bg1">
+                <Card className="bg1 bg_card">
                     <CardHeader>
                         <CardTitle>For IOS</CardTitle>
                         <CardDescription>ios 15.6+</CardDescription>
@@ -99,14 +99,14 @@ export default function Download() {
                             <div className="pr-4">
                             <Image
                                src="/images/qr-code.png"
-                               width={50}
-                               height={50}
+                               width={80}
+                               height={80}
                                alt="Download"
                                />
 
                             </div>
                             
-                            <div className="mt-[-5px] flex items-end justify-end rounded-full bg-white p-4">
+                            <div className="icons mt-[-5px] flex items-end justify-end rounded-full bg-white p-4">
                                 <DiApple className="h-8 w-8 "/>
 
                             </div>
@@ -117,7 +117,7 @@ export default function Download() {
                   
                 </Card>
 
-                <Card className="bg1 p-4">
+                <Card className="bg1 bg_card">
                     <CardHeader>
                         <CardTitle>For Android</CardTitle>
                         <CardDescription>Android 8.0+</CardDescription>
@@ -129,14 +129,14 @@ export default function Download() {
                             <div className="pr-4">
                             <Image
                                src="/images/qr-code.png"
-                               width={50}
-                               height={50}
+                               width={80}
+                               height={80}
                                alt="Download"
                                />
 
                             </div>
                             
-                            <div className="mt-[-5px] flex items-end justify-end rounded-full bg-white p-4">
+                            <div className="icons mt-[-5px] flex items-end justify-end rounded-full bg-white p-4">
                                 <DiAndroid className="h-8 w-8 "/>
 
                             </div>

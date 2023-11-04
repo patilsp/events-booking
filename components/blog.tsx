@@ -33,36 +33,36 @@ export default function Blog() {
                   <div className="download-card mx-4 mb-[-100px] flex flex-col items-center justify-center gap-6 rounded-lg p-4 sm:mx-20 sm:max-w-3xl sm:gap-10 sm:p-5 md:mb-[-200px] md:px-20">
                     <p className="mt-10 text-center text-xl text-gray-200">Your Destination for  affordable and exciting Event Experience.</p>
                     <h1 className="text-center text-3xl text-white">Download The App Now!</h1>
-                    <div className="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
-                      <Button
-                        href="#/download"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="w-full sm:h-16"
-                      >
-                        <div className="flex gap-4">
-                          <DiApple className="h-10 w-10" />
-                          <div className="flex flex-col items-start">
-                            <p className="sm:text-xs md:text-sm">Download on the</p>
-                            <p className="sm:text-sm md:text-xl">App Store</p>
+                    <div className="mb-10 flex grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
+                        <Button
+                            href="#"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="h-16 items-start p-2 px-4 sm:px-0"
+                            >
+                          <div className="flex items-start">
+                            <DiApple className="h-10 w-10" />
+                            <h1 className="flex flex-col items-start"> 
+                              <p className="sm:text-xs md:text-sm">Download on</p>
+                              <p className="sm:text-sm md:text-xl">App Store</p>
+                            </h1>                        
                           </div>
-                        </div>
-                      </Button>
+                        </Button>
 
-                      <Button
-                        href="#download"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="w-full sm:h-16"
-                      >
-                        <div className="flex gap-4">
-                          <DiAndroid className="h-10 w-10" />
-                          <div className="flex flex-col items-start">
-                            <p className="sm:text-xs md:text-sm">Get It On</p>
-                            <p className="sm:text-sm md:text-xl">Google Pay</p>
+                        <Button
+                            href="#"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="h-16 items-start p-2 px-0 md:px-4 lg:px-4"
+                            >
+                          <div className="flex items-start">
+                            <DiAndroid className="h-10 w-10" />
+                            <h1 className="flex flex-col items-start"> 
+                              <p className="sm:text-xs md:text-sm">Get It On</p>
+                              <p className="sm:text-sm md:text-xl">Google Pay</p>
+                            </h1>                        
                           </div>
-                        </div>
-                      </Button>
+                        </Button>
                     </div>
                   </div>
                 </div>

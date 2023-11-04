@@ -42,7 +42,7 @@ export default function Banner() {
 
                       <motion.p
                         variants={slideInFromLeft(0.8)}
-                        className="mb-10 max-w-[600px] text-lg text-slate-500"
+                        className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8"
                       >
                        Discover Seamless Event Planning with Our App! Effortlessly book and manage your events for an unforgettable experience.
                       </motion.p>
@@ -52,13 +52,13 @@ export default function Banner() {
                             href={siteConfig.links.docs}
                             target="_blank"
                             rel="noreferrer"
-                            className="w-30 h-16 items-start"
+                            className="h-16 items-start p-2 px-4"
                             >
                           <div className="flex items-start">
-                          <DiApple className="h-8 w-8" />
+                            <DiApple className="h-10 w-10" />
                             <h1 className="flex flex-col items-start"> 
-                            <p className="sm:text-xs md:text-sm">Download on the</p>
-                            <p className="sm:text-sm md:text-xl">App Store</p>
+                              <p className="sm:text-xs md:text-sm">Download on</p>
+                              <p className="sm:text-sm md:text-xl">App Store</p>
                             </h1>                        
                           </div>
                         </Button>
@@ -67,13 +67,13 @@ export default function Banner() {
                             href={siteConfig.links.docs}
                             target="_blank"
                             rel="noreferrer"
-                            className="w-30 h-16 items-start"
+                            className="h-16 items-start p-2 px-4"
                             >
                           <div className="flex items-start">
-                          <DiAndroid className="h-8 w-8" />
+                            <DiAndroid className="h-10 w-10" />
                             <h1 className="flex flex-col items-start"> 
-                            <p className="sm:text-xs md:text-sm">Get It On</p>
-                            <p className="sm:text-sm md:text-xl">Google Pay</p>
+                              <p className="sm:text-xs md:text-sm">Get It On</p>
+                              <p className="sm:text-sm md:text-xl">Google Pay</p>
                             </h1>                        
                           </div>
                         </Button>
@@ -88,13 +88,13 @@ export default function Banner() {
                     <a href="#" className="avatars__item"><img className="avatar" src="https://cdn3d.iconscout.com/3d/premium/thumb/young-man-5748694-4800737.png" alt="image" /></a>
                     <a href="#" className="avatars__item"><img className="avatar" src="https://cdn3d.iconscout.com/3d/premium/thumb/young-man-5748694-4800737.png" alt="image" /></a>
                     <a href="#" className="avatars__item"><img className="avatar" src="https://cdn3d.iconscout.com/3d/premium/thumb/young-man-5748694-4800737.png" alt="image" /></a>
-                    <a href="#" className="avatars__item"><img className="avatar" src="https://cdn3d.iconscout.com/3d/premium/thumb/young-man-5748694-4800737.png" alt="image" /></a>
+                    <a href="#" className="avatars__item text-3xl text-black">+</a>
             </div>
             <div className="flex flex-col">
-                <h1 className="text-xl font-semibold">
+                <h1 className="text-xl font-bold sm:text-5xl md:text-xl lg:text-2xl">
                     5 Million+
                 </h1>
-                <p> Worldwide Users</p>
+                <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">Worldwide Users</p>
 
                 </div>
             </div>

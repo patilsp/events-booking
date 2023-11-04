@@ -23,7 +23,7 @@ import {
 
   export default function Pricing() {
       return (
-          <section className="bg1 space-y-6 py-8 md:py-12 lg:py-24">
+          <section className="bg1 bg1_dark space-y-6 py-8 md:py-12 lg:py-24">
               <div className="mx-auto mb-10 flex max-w-[58rem] flex-col items-center space-y-4 text-center">
                   <p className="font-heading text-xl font-semibold leading-[1.1] text-primary">
                       - Pricing & Plans
