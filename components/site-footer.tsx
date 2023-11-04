@@ -6,6 +6,8 @@ import { Icons } from "@/components/icons";
 import { MainNav } from "@/components/main-nav";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { motion } from "framer-motion";
+import { Input } from "@/components/ui/input"
+
 
 export function SiteFooter() {
   return (
@@ -28,11 +30,11 @@ export function SiteFooter() {
             <span className="inline-block font-bold text-white">{siteConfig.name}</span>
           </Link>
         </div>
-        <div className="flex items-center justify-center space-x-4">
+        <div className="flex flex-1 items-center justify-center space-x-4">
           <div className="flex justify-between gap-10 md:w-full">
             <div className="sm:w-1/4 md:w-full">
               <h3 className="text-sm font-semibold text-white">Company</h3>
-              <ul className="space-y-2">
+              <ul className="mb-2 mt-4 space-y-2">
                 <li>                  
                     <a className="text-gray-300 hover:text-white">Home</a>                  
                 </li>
@@ -48,7 +50,7 @@ export function SiteFooter() {
             </div>
             <div className="sm:w-1/4 md:w-full">
               <h3 className="text-sm font-semibold text-white">Contact</h3>
-              <ul className="space-y-2">
+              <ul className="mb-2 mt-4 space-y-2">
                 <li>
                  
                     <a className="text-gray-300 hover:text-white">Contact Us</a>
@@ -64,8 +66,11 @@ export function SiteFooter() {
             </div>
            
             <div className="sm:w-1/4 md:w-full">
-              <h3 className="text-sm font-semibold text-white">Get The Latest Information</h3>
-              
+              <div className="mb-4 space-y-2">
+                <h3 className="text-sm font-semibold text-white">Get The Latest Information</h3>
+                <Input />
+              </div>
+
             </div>
           </div>
         </div>
