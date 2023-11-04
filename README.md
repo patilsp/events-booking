@@ -2,6 +2,9 @@
 
 A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
+![image](https://github.com/patilsp/events-booking/assets/35653819/5d5118e9-a50e-482a-9bbb-5adaf1421e22)
+
+
 ## Usage
 
 ```bash
